@@ -1,0 +1,99 @@
+body{
+    margin: 0px;
+    font-family: "Mona Sans", sans-serif;
+    display: flex;
+    font-size: 14px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 80px;
+}
+
+nav img{
+    height: 50px;
+    margin-right: 10px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px;
+    position: fixed;
+    right: 0px;
+    left: 0px;
+    top: 0px;
+    background-color: white;
+    margin-top: 0px;
+    padding: 10px 20px;
+}
+.navcontainer1{
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+    align-items: center;
+}
+nav div a{
+    padding: 0px 16px;
+    font-weight: bold;  
+}
+
+nav div a:hover{
+    color: rgb(88, 88, 88);
+}
+.navcontainer1 a{
+     color: white;
+    background-color: #0d0c22;
+    padding: 10px 24px;
+    border-radius: 500px;
+    text-decoration: none;
+}
+
+.navcontainer1 #nome{
+    font-weight: bold;
+    margin-right: 30px;
+      color: #0d0c22;
+    background-color: white;
+    padding: 0px 0px;
+    border-radius: 0px;
+    text-decoration: none;
+}
+
+.post{
+   height: 250px;
+    width: 20%;
+    border-radius: 10px;
+    margin: 10px 10px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding: 10px;
+    background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#mainPref{
+    width:85%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+
+
+@media (max-width: 940px) {
+
+   
+    #mainPref {
+        flex-direction: column;
+        margin-bottom: 0px;
+    }
+    .post {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        width: 90%;
+    }
+}

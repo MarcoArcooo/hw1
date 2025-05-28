@@ -1,0 +1,97 @@
+body{
+    margin: 0px;
+    font-family: "Mona Sans", sans-serif;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 80px;
+}
+nav img{
+    height: 50px;
+    margin-right: 10px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px;
+    position: fixed;
+    right: 0px;
+    left: 0px;
+    top: 0px;
+    background-color: white;
+    margin-top: 0px;
+    padding: 10px 20px;
+}
+.navcontainer1{
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+    align-items: center;
+}
+nav div a{
+    padding: 0px 16px;
+    margin-right: 20px;
+    font-weight: bold;
+    
+}
+nav div a:hover{
+    color: rgb(88, 88, 88);
+}
+.navcontainer1 a{
+     color: white;
+    background-color: #0d0c22;
+    padding: 10px 24px;
+    border-radius: 500px;
+    text-decoration: none;
+}
+main{
+    width: 300px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+label{
+    margin-bottom: 15px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+}
+form{
+    width: 100%;
+}
+
+input{
+    border-radius: 500px;
+    height: 30px;
+    border: 2px solid grey;
+     padding-left: 10px;
+    font-size: 16;
+}
+
+#invia{
+    color: white;
+    font-weight: bold;
+    margin: auto;
+    background-color: #0d0c22;
+    padding: 10px 30px;
+    border-radius: 500px;
+}
+
+#but{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#Err{
+ font-size: 20px;
+    font-weight: bold;
+    color: red;
+
+}

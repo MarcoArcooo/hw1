@@ -1,0 +1,105 @@
+body{
+    margin: 0px;
+    font-family: "Mona Sans", sans-serif;
+    display: flex;
+    font-size: 14px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 80px;
+}
+#nome{
+    font-weight: bold;
+    margin-right: 30px;
+}
+nav img{
+    height: 50px;
+    margin-right: 10px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px;
+    position: fixed;
+    right: 0px;
+    left: 0px;
+    top: 0px;
+    background-color: white;
+    margin-top: 0px;
+    padding: 10px 20px;
+}
+.navcontainer1{
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+    align-items: center;
+}
+nav div a{
+    padding: 0px 16px;
+    font-weight: bold;  
+}
+
+nav div a:hover{
+    color: rgb(88, 88, 88);
+}
+.navcontainer1 a{
+     color: white;
+    background-color: #0d0c22;
+    padding: 10px 24px;
+    border-radius: 500px;
+    text-decoration: none;
+}
+
+#info{
+    text-align: start;
+    width: 80vw;
+    margin: auto 10px;
+}
+
+label{
+    margin-bottom: 15px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-weight: bold;
+}
+
+input{
+    margin-left: 30px;
+    border-radius: 500px;
+    height: 30px;
+    border: 2px solid #0d0c22;
+    padding-left: 10px;
+    font-size: 16;
+}
+
+#sfondo{
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    height: 40vh;
+    border-radius: 500px 0 0 0;
+}
+
+#cron{
+    text-decoration: none;
+    color: grey;
+}
+
+h1{
+    margin-bottom: 0px;
+}
+h6{
+    font-weight: normal;
+    margin-top: 0px;
+}
+
+@media (max-width: 600px) {
+
+   
+    #sfondo{
+        display: none;
+    }
+}
