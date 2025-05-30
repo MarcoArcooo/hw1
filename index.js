@@ -79,6 +79,8 @@ function creaFiglioPost(n, seriale){
         const divv =  photo.childNodes[1];
        divv.classList.add('mettilike');
         divv.classList.remove('toglilike');
+             divv.addEventListener('click', toglilike);
+    divv.removeEventListener('click', mettilike);
         divv.childNodes[0].src = "fire.png";
     }
   
